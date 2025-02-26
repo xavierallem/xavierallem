@@ -24,6 +24,13 @@ Hey there! I'm that rare breed of developer who enjoys working at the intersecti
 From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at Life Spark, I've worn many hats - though my favorite is my debugging hat (it has LED strips). Currently, I'm diving deep into Graph Neural Networks for autonomous vehicles at FZI, because apparently teaching cars to drive is easier than teaching humans to use turn signals.
 
 ---
+## 📊 GitHub Stats
+
+![Allen's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavierallem&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xavierallem&layout=compact&theme=tokyonight)
+
+---
+
 
 ## 🛠️ Technologies & Skills
 
@@ -158,12 +165,6 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 
 ---
 
-## 📊 GitHub Stats
-
-![Allen's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavierallem&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xavierallem&layout=compact&theme=tokyonight)
-
----
 
 ## 📫 Let's Connect!
 
