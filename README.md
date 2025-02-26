@@ -87,7 +87,7 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 ## 🚀 Featured Projects
 
 <a href="https://github.com/xavierallem/dynamic_agent_perception">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&dynamic_agent_perception-detection&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=dynamic_agent_perception-detection&theme=dark" />
 </a>
 <a href="https://github.com/xavierallem/SMOLES-Firmware">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=SMOLES-Firmware&theme=dark" />
