@@ -102,8 +102,8 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 <a href="https://github.com/xavierallem/picoVision">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=picoVision&theme=dark" />
 </a>
-<a href="https://github.com/xavierallem/arduino-linear-regression">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=arduino-linear-regression&theme=dark" />
+<a href="https://github.com/xavierallem/ArduinoMLib">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=ArduinoMLib&theme=dark" />
 </a>
 <a href="https://github.com/xavierallem/esp8266-Edge-ML">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=esp8266-Edge-ML&theme=dark" />
