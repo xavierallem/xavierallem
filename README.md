@@ -176,7 +176,7 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 ---
 
 
-## 📫 Let's Connect!
+
 
 ## 📫 Let's Connect!
 
