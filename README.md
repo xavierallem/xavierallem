@@ -30,17 +30,23 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xavierallem&layout=compact&theme=tokyonight)
 
 ---
+## 🏆 Awards
 
+- 🥇 **Best Product Award** - SMOLEs at KIT Student Innovation Lab
+- 📚 **IEEE Publications** - Multiple research papers in international conferences
 
 ## 🛠️ Technologies & Skills
 
 <details>
   <summary><b>Languages & Core</b></summary>
   
-  ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
-  ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-  ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) ⭐⭐⭐⭐⭐
+
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white) ⭐⭐⭐⭐⭐
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ⭐⭐⭐⭐⭐
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white) ⭐⭐⭐⭐☆
 </details>
 
 <details>
@@ -116,6 +122,10 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 
 ## 📚 Publications
 
+<a href="https://arxiv.org/abs/2507.19354">
+  <img src="https://img.shields.io/badge/arXiv-EffiComm%3A%20Bandwidth%20Efficient%20Multi%20Agent%20Communication-red?logo=arxiv&logoColor=white" alt="arXiv Paper">
+</a>
+
 <a href="https://ieeexplore.ieee.org/abstract/document/9418346">
   <img src="https://img.shields.io/badge/IEEE-Unknown%20Terrain%20modelling%20using%203D%20mapping-00629B?logo=ieee&logoColor=white" alt="IEEE Paper">
 </a>
@@ -131,7 +141,7 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 - **Thesis** - FZI, Karlsruhe, Germany (Nov 2024 - May 2025)
   - Dynamic Agent Selection in Autonomous Vehicle using Graph Neural Networks
   
-- **Research Assistant** - FZI, Karlsruhe, Germany (Mar 2024 - Jun 2025)
+- **Research Assistant** - FZI, Karlsruhe, Germany (Mar 2024 - Dec 2025)
   - Developing Graph Neural Networks and Gaussian Process models for Pathogen Detection
 
 - **Software Developer (WerkStudent)** - Vanory, Karlsruhe, Germany (Feb 2023 - Mar 2024)
@@ -168,17 +178,21 @@ From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at 
 
 ## 📫 Let's Connect!
 
+## 📫 Let's Connect!
+
+📍 **Location:** Karlsruhe, Germany  
+📱 **Phone:** +49 17665641715  
+💼 **Status:** Completing MS Thesis (Available May 2025)  
+
 <p>
   <a href="mailto:xavierallem1999@gmail.com">
     <img src="https://img.shields.io/badge/Email-xavierallem1999%40gmail.com-D14836?logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://linkedin.com/in/allen-xavier">
+    <img src="https://img.shields.io/badge/LinkedIn-allen--xavier-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://github.com/xavierallem">
     <img src="https://img.shields.io/badge/GitHub-xavierallem-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
 </p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=xavierallem&color=blue&style=flat-square" alt="Profile views">
-</p>
-
 > "When debugging, the only difference between theory and practice is that in theory there is no difference between theory and practice." 🔌
