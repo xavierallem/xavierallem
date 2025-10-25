@@ -19,9 +19,7 @@
 
 ## 👨‍💻 About Me
 
-Hey there! I'm that rare breed of developer who enjoys working at the intersection of hardware and software. Currently mastering the art of making robots play nice at KIT, Germany, when I'm not debugging my coffee machine's firmware.
-
-From crafting AI chatbots at Gupshup to helping Parkinson's patients with ML at Life Spark, I've worn many hats - though my favorite is my debugging hat (it has LED strips). Currently, I'm diving deep into Graph Neural Networks for autonomous vehicles at FZI, because apparently teaching cars to drive is easier than teaching humans to use turn signals.
+👋 AI/ML Engineer specializing in Embedded Systems, Graph Neural Networks and Multi-Modal Perception, currently researching Multi-Modal models in technology at FZI, Germany.
 
 ---
 ## 📊 GitHub Stats
