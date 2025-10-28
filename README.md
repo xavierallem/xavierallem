@@ -19,7 +19,7 @@
 
 ## 👨‍💻 About Me
 
-👋 AI/ML Engineer specializing in Embedded Systems, Graph Neural Networks and Multi-Modal Perception, currently researching Multi-Modal models in technology at FZI, Germany.
+👋 AI/ML Engineer specialising in Multi-Modality and Hobbyist sometimes in Embedded Systems, currently researching Multi-Modal models in technology at FZI, Germany.
 
 ---
 ## 📊 GitHub Stats
