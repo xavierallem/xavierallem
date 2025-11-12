@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  MS Electrical and Information Technology student at KIT, Germany specializing in Embedded Systems, Machine Learning, and IoT. I make machines talk to each other while occasionally talking to humans too!
+  MS Electrical and Information Technology student at KIT, Germany specializing in Computer Science. I make machines talk to each other while occasionally talking to humans too!
 </p>
 
 ---
