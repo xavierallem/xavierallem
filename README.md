@@ -118,6 +118,20 @@
 
 ---
 
+## 🔥 Latest Work
+
+<a href="https://github.com/xavierallem/lgg-website-eval">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=lgg-website-eval&theme=dark" />
+</a>
+<a href="https://github.com/xavierallem/latentsync_turbo">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=latentsync_turbo&theme=dark" />
+</a>
+<a href="https://github.com/xavierallem/AllenXavier">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=AllenXavier&theme=dark" />
+</a>
+
+---
+
 ## 📚 Publications
 
 <a href="https://arxiv.org/abs/2507.19354">
@@ -162,7 +176,7 @@
   
   ### Embedded Systems
   - [Development of Secure Embedded Systems](https://coursera.org/share/9eb36d8acf114012c971a12f81b7e3ef)
-  - [Introduction to Self-Driving Cars](https://coursera.org/share/442ac5e7a30cf7bf6744fa7c107e2a6a)
+  - [Introduction to Self-Driving Cars](https://coursera.org/share/442ac5e7a30fa7bf6744fa7c107e2a6a)
   - [State Estimation and Localization for Self-Driving Cars](https://coursera.org/share/df908ef3df46a349f007dda8c9e642eb)
   - [Motion Planning for Self-Driving Cars](https://coursera.org/share/753e7ab694eda7e3c7975ffb31bd1684)
   
@@ -193,4 +207,5 @@
     <img src="https://img.shields.io/badge/GitHub-xavierallem-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
 </p>
+
 > "When debugging, the only difference between theory and practice is that in theory there is no difference between theory and practice." 🔌
