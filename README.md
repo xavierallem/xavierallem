@@ -92,9 +92,6 @@
 ---
 ## 🔥 Latest Work
 
-<a href="https://github.com/xavierallem/lgg-website-eval">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=lgg-website-eval&theme=dark" />
-</a>
 <a href="https://github.com/xavierallem/latentsync_turbo">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=latentsync_turbo&theme=dark" />
 </a>
@@ -146,11 +143,13 @@
 
 ## 📝 Recent Experience
 
+- **Research Assistant** - FZI, Karlsruhe, Germany (Mar 2024 - Present)
+  - Built multimodal LLM agents for automated UX evaluation achieving 3.2× throughput and 22% fewer hallucinations via RAG and QLoRA fine-tuning, deployed on vLLM and Kubernetes.
+  - Developing Graph Neural Networks and Gaussian Process models for Pathogen Detection
+
 - **Thesis** - FZI, Karlsruhe, Germany (Nov 2024 - May 2025)
   - Dynamic Agent Selection in Autonomous Vehicle using Graph Neural Networks
   
-- **Research Assistant** - FZI, Karlsruhe, Germany (Mar 2024 - Dec 2025)
-  - Developing Graph Neural Networks and Gaussian Process models for Pathogen Detection
 
 - **Software Developer (WerkStudent)** - Vanory, Karlsruhe, Germany (Feb 2023 - Mar 2024)
   - Developing Firmware and Device drivers in Embedded C/C++ & Edge Computing using WLED and STMCore
