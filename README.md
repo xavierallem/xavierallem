@@ -11,10 +11,6 @@
   </a>
 </p>
 
-<p align="center">
-  MS Electrical and Information Technology student at KIT, Germany specializing in Computer Science. I make machines talk to each other while occasionally talking to humans too!
-</p>
-
 ---
 
 ## 👨‍💻 About Me
@@ -94,7 +90,19 @@
 </details>
 
 ---
+## 🔥 Latest Work
 
+<a href="https://github.com/xavierallem/lgg-website-eval">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=lgg-website-eval&theme=dark" />
+</a>
+<a href="https://github.com/xavierallem/latentsync_turbo">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=latentsync_turbo&theme=dark" />
+</a>
+<a href="https://github.com/xavierallem/helpai">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=helpai&theme=dark" />
+</a>
+
+---
 ## 🚀 Featured Projects
 
 <a href="https://github.com/xavierallem/dynamic_agent_perception">
@@ -118,19 +126,7 @@
 
 ---
 
-## 🔥 Latest Work
 
-<a href="https://github.com/xavierallem/lgg-website-eval">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=lgg-website-eval&theme=dark" />
-</a>
-<a href="https://github.com/xavierallem/latentsync_turbo">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=latentsync_turbo&theme=dark" />
-</a>
-<a href="https://github.com/xavierallem/AllenXavier">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xavierallem&repo=AllenXavier&theme=dark" />
-</a>
-
----
 
 ## 📚 Publications
 
