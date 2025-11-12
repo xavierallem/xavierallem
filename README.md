@@ -189,7 +189,7 @@
 
 📍 **Location:** Karlsruhe, Germany  
 📱 **Phone:** +49 17665641715  
-💼 **Status:** Completing MS Thesis (Available May 2025)  
+💼 **Status:** Looking For Oppurtunities
 
 <p>
   <a href="mailto:xavierallem1999@gmail.com">
