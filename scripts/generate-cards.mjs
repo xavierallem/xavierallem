@@ -14,7 +14,10 @@ const TOKEN = process.env.GITHUB_TOKEN
 const OUT = 'assets'
 
 // Byte counts reward whichever repository holds the most code, not the work
-// you want read. Vendored code inside a fork can invert the whole picture.
+// you want read. A decade of embedded coursework outweighs recent AI work by
+// volume, so the card counts repositories created from SINCE_YEAR onward. The
+// filter is stated on the card rather than applied silently.
+const SINCE_YEAR = Number(process.env.SINCE_YEAR ?? 0)
 const EXCLUDE_REPOS = new Set(
   (process.env.EXCLUDE_REPOS ?? '')
     .split(',')
@@ -61,7 +64,7 @@ async function json(url) {
 const escape = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
-export function renderCard({ rows, repoCount, stars, theme, updated }) {
+export function renderCard({ rows, repoCount, scope, theme, updated }) {
   const t = THEMES[theme]
   const W = 480
   const PAD = 24
@@ -91,7 +94,7 @@ export function renderCard({ rows, repoCount, stars, theme, updated }) {
   <title>Language breakdown across ${repoCount} public repositories</title>
   <rect width="${W}" height="${H}" rx="10" fill="${t.panel}" stroke="${t.line}"/>
   <text x="${PAD}" y="32" fill="${t.text}" font-family="${mono}" font-size="13" letter-spacing="1.6">LANGUAGES</text>
-  <text x="${W - PAD}" y="32" fill="${t.subtle}" font-family="${mono}" font-size="11" text-anchor="end">${repoCount} repos · ${stars} stars</text>
+  <text x="${W - PAD}" y="32" fill="${t.subtle}" font-family="${mono}" font-size="11" text-anchor="end">${escape(scope)}</text>
   <line x1="${PAD}" y1="48" x2="${W - PAD}" y2="48" stroke="${t.line}"/>
   ${bars}
   <text x="${PAD}" y="${H - 14}" fill="${t.subtle}" font-family="${mono}" font-size="10">Updated ${updated} · generated in CI, not by a third party</text>
@@ -103,9 +106,18 @@ export function renderCard({ rows, repoCount, stars, theme, updated }) {
 if (!process.env.CARDS_DRY_RUN) {
   const repos = (
     await json(`https://api.github.com/users/${USER}/repos?per_page=100&type=owner`)
-  ).filter((r) => !r.fork && !r.archived && !EXCLUDE_REPOS.has(r.name))
+  ).filter(
+    (r) =>
+      !r.fork &&
+      !r.archived &&
+      !EXCLUDE_REPOS.has(r.name) &&
+      new Date(r.created_at).getUTCFullYear() >= SINCE_YEAR,
+  )
 
   const stars = repos.reduce((n, r) => n + (r.stargazers_count ?? 0), 0)
+  const scope = SINCE_YEAR
+    ? `${repos.length} repos since ${SINCE_YEAR} · ${stars} stars`
+    : `${repos.length} repos · ${stars} stars`
 
   const totals = new Map()
   for (const repo of repos) {
@@ -124,7 +136,7 @@ if (!process.env.CARDS_DRY_RUN) {
   for (const theme of ['dark', 'light']) {
     writeFileSync(
       `${OUT}/languages-${theme}.svg`,
-      renderCard({ rows, repoCount: repos.length, stars, theme, updated }),
+      renderCard({ rows, repoCount: repos.length, scope, theme, updated }),
     )
   }
   console.log(`wrote ${OUT}/languages-{dark,light}.svg from ${repos.length} repositories`)

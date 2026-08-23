@@ -26,9 +26,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-          # Vendored code inside this fork would otherwise report 57% C++ and
-          # bury the Python. See SETUP.md.
-          EXCLUDE_REPOS: dynamic_agent_perception
+          # Count only repositories created from 2023 onward. Before that the
+          # profile is embedded coursework, which outweighs the recent AI work
+          # by volume and describes a career stage that has moved on. The card
+          # says "since 2023" so the filter is visible. See SETUP.md.
+          SINCE_YEAR: '2023'
         run: node scripts/generate-cards.mjs
 
       - name: Commit if the card changed
