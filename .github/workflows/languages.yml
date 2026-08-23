@@ -1,6 +1,11 @@
 name: Update language card
 
 on:
+  # Runs on push so the first commit generates the cards. Without this the
+  # workflow sits idle until the schedule fires and the README points at an
+  # assets/ directory that does not exist yet.
+  push:
+    branches: [main]
   schedule:
     - cron: '0 4 * * 1' # Mondays, 04:00 UTC
   workflow_dispatch: # and on demand
@@ -28,12 +33,15 @@ jobs:
 
       - name: Commit if the card changed
         run: |
-          if [[ -n "$(git status --porcelain assets)" ]]; then
-            git config user.name  'github-actions[bot]'
-            git config user.email 'github-actions[bot]@users.noreply.github.com'
-            git add assets
-            git commit -m 'chore: refresh language card'
-            git push
-          else
-            echo 'no change'
+          if [[ -z "$(git status --porcelain assets)" ]]; then
+            echo 'card unchanged, nothing to commit'
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets
+          git commit -m 'chore: refresh language card [skip ci]'
+          if ! git push; then
+            echo '::error::Push failed. Enable Settings > Actions > General > Workflow permissions > Read and write.'
+            exit 1
           fi
